@@ -12,7 +12,7 @@
             <div class="title">Calculator</div><br>
             <form name="form">
                 <div class="textview">
-                    <input  id="previous" class="previous">
+                    <div id="history" class="history"></div>
                     <input id="current" class="current">
                 </div>
             </form>
@@ -25,26 +25,26 @@
             <div class="raw">
                 <div class="a6"><button onclick="clear1()" id="Clear" class="button operation clr">Clear</button></div>
                 <div class="a3"><button onclick="back()" class="button operation del">Del</button></div>
-                <div class="a3"><button onclick="getOperators('/')" class="button operation operator">&#247;</button></div>
+                <div class="a3"><button onclick="getOperators(' / ')" class="button operation operator">&#247;</button></div>
             </div>
             
             <div class="raw">
                 <div class="a3"><button onclick="getNumbers(7)" class="button num ">7</button></div>
                 <div class="a3"><button onclick="getNumbers(8)" class="button num ">8</button></div>
                 <div class="a3"><button onclick="getNumbers(9)" class="button num ">9</button></div>
-                <div class="a3"><button onclick="getOperators('*')" class="button operation operator">&#215;</button></div>
+                <div class="a3"><button onclick="getOperators(' * ')" class="button operation operator">&#215;</button></div>
             </div>
             <div class="raw">
                 <div class="a3"><button onclick="getNumbers(4)" class="button num ">4</button></div>
                 <div class="a3"><button onclick="getNumbers(5)" class="button num ">5</button></div>
                 <div class="a3"><button onclick="getNumbers(6)" class="button num ">6</button></div>
-                <div class="a3"><button onclick="getOperators('-')" class="button operation operator">&#8722;</button></div>
+                <div class="a3"><button onclick="getOperators(' - ')" class="button operation operator">&#8722;</button></div>
             </div>
             <div class="raw">
                 <div class="a3"><button onclick="getNumbers(1)" class="button num ">1</button></div>
                 <div class="a3"><button onclick="getNumbers(2)" class="button num ">2</button></div>
                 <div class="a3"><button onclick="getNumbers(3)" class="button num ">3</button></div>
-                <div class="a3"><button onclick="getOperators('+')" class="button operation operator">+</button></div>
+                <div class="a3"><button onclick="getOperators(' + ')" class="button operation operator">+</button></div>
             </div>
             <div class="raw">
                 <div class="a3"><button onclick="getNumbers('.')" class="button operator dut">.</button></div>
@@ -53,6 +53,6 @@
             </div>  
 
         </div>
-        <script src="js/script.js" ></script>
+        <script src="script.js" ></script>
     </body>
 </html>
