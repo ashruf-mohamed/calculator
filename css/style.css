@@ -29,16 +29,17 @@ form{
     
 
 }
-.previous{
+.history{
     width:100%;
     height:73px;
     text-align: end;
     padding:10px;
     color: #555;
-    font-size: 17px;
+    font-size: 22px;
+    font-weight: 450;
     background: rgba(0,0,0,0);
     border: none;
-    pointer-events:auto;
+    line-height: 20px;
 }
 .current{
     width:100%;
@@ -49,7 +50,7 @@ form{
     font-weight: 500;
     background: rgba(0,0,0,0);
     border: none;
-    pointer-events:none;
+    pointer-events:fill;
 }
 
 .raw:before, .raw:after{
